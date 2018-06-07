@@ -1,0 +1,24 @@
+# Ignore PyCharm files
+.idea/
+
+# Ignore byte-compiled files
+*.pyc
+*pycache*
+
+# Ignore records and data folders
+*records*/
+data/
+
+# Ignore vim files
+*.swp
+
+# Ignore all files for test
+foobar/
+*foo*
+*bar*
+mascot.py
+
+# Ignore packages in trainer
+*/trainer/models
+*/trainer/signals
+*/trainer/tframe
